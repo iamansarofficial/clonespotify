@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    flex-direction: row;
+}
+.left-sec{
+    width: 40%;
+    height: 80px;
+}
+.right-sec{
+    width: 60%;
+    height: 80px;
+    padding: 7px;
+   
+    
+    
+}
+.logo-head{
+    width: 21%;
+    margin: 23px;
+    margin-left:29%;
+}
+.right-sec ul{
+    margin-left: 25%;
+    font-family: 'Rubik';
+    font-size: 15px;
+    font-weight: 700;
+}
+.right-sec ul li{
+  list-style:none ;
+  display: inline-flex;
+  margin-right: 39px;
+
+}
+.right-sec ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    margin: 27px;
+    margin-left: 28%;
+    text-align: center;
+    
+}
+.right-sec ul li a:hover{
+    color: #1ed760;
+}
+.separator{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/*--------------hero------------*/
+
+.hero{
+    width: 100%;
+    height: 700px;
+    background-image: url(images/Picsart_23-02-14_12-44-38-111.jpg);
+   
+}
+.left-hero{
+    width: 55%;
+    height: 700px;
+    float: right;
+}
+.left-hero h2{
+    color: white;
+    margin: 60px;
+    font-size: 58px;
+    margin-top: 25%;
+    font-family: 'Secular One';
+}
+.left-hero button{
+    margin-left: 7%;
+    width: 25%;
+    height: 53px;
+    border: none;
+    border-radius: 28px;
+    font-size: 15px;
+    margin-top: -31px;
+    color: black;
+    font-family: 'Secular One';
+}
+
+/*-----------content--------*/
+
+.content{
+    width: 100%;
+    height: 550px;
+}
+.contenthead{
+    width: 100%;
+    height: 150px;
+}
+.contenthead h2{
+    font-size: 40px;
+    font-family: 'Secular One';
+    padding: 43px;
+    padding-left: 40%;
+}
+.contenticon{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1%;
+    justify-content: space-evenly;
+    font-family: 'Rubik';
+    font-size: 14px;
+}
+.imgdiv1 h3{
+    margin-left: 9%;
+}
+.imgdiv2 h3{
+    margin-left: 7%;
+}
+.imgdiv3 h3{
+    margin-left: 23%;
+}
+.imgdiv4 h3{
+    margin-left: 15%;
+}
+.imgdiv1 p{
+   text-align: center;
+   margin-right: 30%;
+}
+.imgdiv2 p{
+    text-align: center;
+    margin-right: 30%;
+ }
+ .imgdiv3 p{
+    text-align: center;
+    margin-right: 7%;
+ }
+ .imgdiv4 p{
+    text-align: center;
+    margin-right: 18%;
+ }
+
+.sec-content{
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+.sec-content h2{
+    font-size: 43px;
+    font-family: 'Secular One';
+    text-align: center;
+    padding-top: 11%;
+    color: white;
+}
+/*---------------faq--------------*/
+.centerfaq{
+    
+    width: 80%;
+    height: 550px;
+    margin-left: 10%;
+    
+}
+#accrodian{
+
+    padding-top: 8%;
+    line-height: 22px;
+    
+}
+#accrodian li{
+    list-style: none;
+    font-family: 'Secular One';
+    font-size: 14px;
+    border-radius: 5px;
+    color: #423d3d;
+    padding: 7px;
+}
+#accrodian li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    font-family: 'Secular One';
+}
+#accrodian li label:hover{
+    background: #ccc8c8;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+#accrodian li label span{
+    transform: rotate(269deg);
+    font-size: 22px;
+    color:black ;
+}
+
+#accrodian label + input[type="radio"]{
+    display: none;
+}
+#accrodian .contentq{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accrodian label + input[type="radio"]:checked + .contentq{
+          max-height: 400px;
+}
+.centerfaq h1{
+    margin-left: 37%;
+    font-size: 43px;
+    margin-top: 5%;
+    font-family: 'Secular One';
+}
+/*-------------lastContent-------------*/
+.lastcont{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    text-align: center;
+    padding-top: 13%;
+}
+.lastcont h1{
+    font-size: 64px;
+    color: white;
+    font-family: 'Secular One';
+}
+.lastcont button{
+    width: 14%;
+    height: 50px;
+    margin-top: 30px;
+    background: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 20px;
+    font-family: 'Secular One';
+}
+
+/*-------------footer------------*/
+.footer{
+    width: 100%;
+    height: 550px;
+    background: #000000;
+    padding: 4%;
+    
+}
+.cover{
+    width: 91%;
+    height: 570px;
+   
+}
+.footerabove{
+    width:100%;
+    height: 380px;
+  
+    display: flex;
+}
+.onef{
+    width: 25%;
+    height: 380px;
+   
+}
+.onef img{
+    width: 52%;
+    margin: 12%;
+    margin-left: 42%;
+    
+}
+.twof{
+    width: 15%;
+    height: 380px;
+    color: white;
+    
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 13px;
+    line-height: 50px;
+}
+.threef{
+    width: 15%;
+    height: 380px;
+    color: white;
+   
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 13px;
+    line-height: 50px;
+}
+.fourf{
+    width: 15%;
+    height: 380px;
+    color: white;
+   
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 13px;
+    line-height: 50px;
+}
+.fivef{
+    width: 30%;
+    height: 380px;
+  
+}
+.fivef img{
+    width: 29%;
+    margin-left: 35%;
+    margin-top: 13px;
+  
+}
+
+.footerbelow{
+  
+    width: 100%;
+    height: 190px;
+    display: flex;
+   
+}
+.belowf1{
+    width: 50%;
+    height: 190px;
+   
+}
+.belowf1 h4{
+    margin-left: 15%;
+    margin-top: 24%;
+    font-family: 'Secular One';
+    font-size: 13px;
+    color: white;
+}
+.belowf2{
+    width: 50%;
+    height: 190px;
+    
+}
+.belowf2 h4{
+    margin-top: 22%;
+    margin-left: 76%;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 13px;
+    color: white;
+
+}
